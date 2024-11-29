@@ -1,0 +1,23 @@
+{
+    "name": "your-username/gpt-alisa",
+    "description": "Навык для Алисы, подключающий её к ChatGPT от OpenAI.",
+    "type": "project",
+    "require": {
+        "vlucas/phpdotenv": "^5.5",
+        "guzzlehttp/guzzle": "^7.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "GPT\\": "src/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rim Zabarov",
+            "email": "rim@zabarov.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require-dev": {}
+}
