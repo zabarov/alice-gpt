@@ -10,16 +10,14 @@
 
 ## Структура Проекта
 ```
-alice-gpt/
-├── src/
-│   ├── index.php
-│   ├── gpt.php
-│   └── .env.example
+gpt-alisa/
 ├── vendor/
 ├── .gitignore
 ├── composer.json
 ├── README.md
-└── LICENSE
+├── LICENSE
+├── index.php
+└── .env
 ```
 
 ## Установка
@@ -47,13 +45,7 @@ alice-gpt/
 
 3. **Настройте файл окружения:**
 
-    - Создайте файл `.env` на основе `.env.example`:
-
-        ```bash
-        cp src/.env.example src/.env
-        ```
-
-    - Откройте `src/.env` и добавьте ваш OpenAI API ключ:
+    - Откройте `.env` и добавьте ваш OpenAI API ключ:
 
         ```
         OPENAI_API_KEY=your_openai_api_key
