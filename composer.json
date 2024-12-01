@@ -1,5 +1,5 @@
 {
-    "name": "your-username/gpt-alisa",
+    "name": "zabarov/gpt-alisa",
     "description": "Навык для Алисы, подключающий её к ChatGPT от OpenAI.",
     "type": "project",
     "require": {
